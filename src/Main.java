@@ -19,7 +19,6 @@ public class Main {
             return s;
         };
         System.out.println(refacrotString2.getString( strForSecondTask));
-
     }
     public static String reverseString(String str){
         return new StringBuilder(str).reverse().toString();
